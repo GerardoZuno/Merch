@@ -7,12 +7,12 @@ const Header = () => {
       <div className="Header">
           <h1 className="Header-title">
             <Link to="/">
-              <i className="fas fa-shopping-basket"></i>
+            <i class="fas fa-archway"></i>
             </Link>
           </h1>
           <div className="Header-checkout">
             <Link to="/checkout">
-                Checkout  
+            <i className="fas fa-shopping-basket"></i> 
             </Link>
           </div>
       </div>
