@@ -26,7 +26,7 @@ const useInitialState = () => {
     });
   };
 
-  const addNewOrder = () => {
+  const addNewOrder = (payload) => {
     setState({
       ...state,
       orders: [...state.orders, payload]
