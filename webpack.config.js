@@ -49,7 +49,12 @@ module.exports = {
       template: './public/index.html',
       filename: './index.html',
     }),
-    new Dotenv(),
+    new Dotenv({
+      path: './.env',
+			safe: true,
+			systemvars: true,
+			defaults: false,
+    }),
     new MiniCssExtractPlugin({
       filename: 'assets/[name].css',
     }),
