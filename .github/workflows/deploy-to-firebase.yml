@@ -36,4 +36,3 @@ jobs:
   env:
     FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
     GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-   	CLIENT_ID: ${{ secrets.CLIENT_ID }}
